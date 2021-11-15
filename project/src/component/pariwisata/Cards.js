@@ -12,7 +12,6 @@ export default function Cards() {
 
             <Row className="mt-5">
                 {tours
-                    .sort((data) => data.createdAT > 0)
                     .map((data) => (
                         <Col xs={4} key={data._id}>
                             <Card border="dark" className="mt-4 cards">
