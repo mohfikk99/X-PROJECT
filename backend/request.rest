@@ -1,0 +1,25 @@
+GET http://localhost:5000/tour
+
+###
+GET http://localhost:5000/tour/61680a5b723277551453d03c
+
+###
+POST http://localhost:5000/tour
+Content-Type: application/json
+
+{
+    "title": "Matantomali",
+    "location": "Sigi"
+}
+
+###
+PATCH  http://localhost:5000/tour/61680a5b723277551453d03c
+Content-Type: application/json
+
+{
+    "title": "Pantai kaluku",
+    "location": "Donggala"
+}
+
+###
+DELETE  http://localhost:5000/tour/61681a972c543fc88f3bb69a

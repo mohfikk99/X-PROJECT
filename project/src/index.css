@@ -1,0 +1,168 @@
+body {
+  /* background-color: black; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-size {
+  font-size: 2vmin !important;
+}
+
+
+
+.navbar {
+  font-Weight: normal;
+  font-Size: 17px;
+  color: white;
+  vertical-Align: 10px;
+}
+
+h1 {
+  font-size: 4vw;
+  line-height: 6vw;
+}
+
+.title {
+  font-size: 3vmax;
+  text-align: left;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  text-shadow: 1px 12px 7px gray;
+  font-weight: bolder;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+
+/* Jumbotron */
+.text-welcome {
+  font-size: 3vmin;
+}
+
+.motto {
+  font-size: 1vw;
+}
+/* akhir jumbotron */
+
+
+
+/* section info */
+.section-info-image {
+  width: 20vw;
+}
+
+.section-info-button {
+  width: 25vw;
+  font-size: 2vmin;
+  font-weight:inherit;
+  color: #000;
+  text-align: center;
+}
+
+
+.section-info-one {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  background-color: rgb(100, 99, 107);
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+
+
+.section-info-two {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  background-color: rgb(69, 70, 77);
+  margin-left: 12%;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+
+.section-info-three {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  background-color: rgb(44, 45, 53);
+  margin-left: 24%;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+
+.info-title {
+  color: beige;
+  margin-left: 1vw;
+  margin-top: 3vw;
+  font-size: 2vw;
+}
+
+.info-text {
+  color: beige;
+  margin-top: 4vw;
+  font-size: 1vw;
+  text-align: center;
+  
+}
+
+/* akhir section info */
+
+
+/* slider */
+.slide-text {
+  font-size: 2vmin;
+}
+/* akhir slider */
+
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px
+}
+
+.canvas-start {
+  position: absolute;
+  width: 40vw;
+  font-size: 2vmin;
+  font-weight: bold;
+}
+
+.canvas-end{
+  position: absolute;
+ width: 40vw;
+ font-size: 2vmin;
+ font-weight: bold;
+}
+
+
+.cards {
+  width: 26vw;
+  font-size: 2vmin;
+}
+
+.settingCard {
+  position: absolute;
+  width: 26vw;
+  font-size: 2vmin;
+}
+
+
+.btn-custom {
+  margin-right: 1%;
+  margin-bottom: 1%;
+  font-size: 2vmin;
+  padding: 1vmin;
+}
+
