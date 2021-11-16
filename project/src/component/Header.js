@@ -30,12 +30,12 @@ export default function Header() {
                     <Navbar.Brand href="#home">
                         <img
                             alt=""
-                            src="logo192.png"
+                            src="logo.png"
                             width="30"
                             height="30"
                             className="d-inline-block align-top"
                         />{' '}
-                        React Bootstrap
+                        Wonderful Indonesia
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

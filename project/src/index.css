@@ -146,6 +146,12 @@ h1 {
  font-weight: bold;
 }
 
+.distance {
+  display: block;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 
 .cards {
   width: 26vw;

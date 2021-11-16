@@ -1,6 +1,10 @@
 import React from 'react'
 import { Row, Col, Card, Button } from 'react-bootstrap'
 import SettingCard from '../SettingCard';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faMapSigns
+} from "@fortawesome/free-solid-svg-icons";
 
 import { useSelector } from 'react-redux'
 
@@ -18,11 +22,19 @@ export default function CardPost({ handleShowModal, setCurrentId }) {
                         <Col xs={4} key={tour._id}>
                             <Card border="dark" className="mt-4 cards">
                                 <Card.Header>
-                                    {tour.name_tour}, {tour.name}
-                                    <SettingCard tour={tour} handleShowModal={handleShowModal} setCurrentId={setCurrentId} />
+                                    <div className="distance">
+                                        <h4>{tour.name}</h4>
+                                    </div>
+                                    <div>
+                                        <SettingCard tour={tour} handleShowModal={handleShowModal} setCurrentId={setCurrentId} />
+                                    </div>
                                 </Card.Header>
                                 <Card.Img variant="top" src={tour.image} />
                                 <Card.Body>
+                                    <h5>
+                                    <FontAwesomeIcon icon={faMapSigns} />
+                                    {tour.name_tour}
+                                    </h5>
                                     <hr />
                                     <Button variant="outline-dark badge-dark" className="btn-custom">
                                         Detail
