@@ -15,9 +15,20 @@ export default function Cards() {
                     .map((data) => (
                         <Col xs={4} key={data._id}>
                             <Card border="dark" className="mt-4 cards">
-                                <Card.Header>{data.name_tour}, {data.name} <SettingCard /></Card.Header>
+                                <Card.Header >
+                                    <img
+                                        alt=""
+                                        src="default.jpg"
+                                        width="30"
+                                        height="30"
+                                        className="profile"
+                                    />
+                                    <strong> {data.name} </strong>
+                                    <SettingCard/>
+                                </Card.Header>
                                 <Card.Img variant="top" src={data.image} />
                                 <Card.Body>
+                                    <h4><strong>{data.name_tour}</strong></h4>
                                     <hr />
                                     <Button variant="outline-dark badge-dark" className="btn-custom">
                                         Detail

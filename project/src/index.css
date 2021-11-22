@@ -44,6 +44,10 @@ h1 {
   border-radius: 50%;
 }
 
+.img-profile {
+  align-self: center;
+}
+
 
 /* Jumbotron */
 .text-welcome {
@@ -146,17 +150,14 @@ h1 {
  font-weight: bold;
 }
 
-.distance {
-}
-
-
 .cards {
   width: 26vw;
   font-size: 2vmin;
+  text-align: center;
 }
 
 .settingCard {
-  margin-left: 50%;
+  position: absolute;
   width: 26vw;
   font-size: 2vmin;
 }
