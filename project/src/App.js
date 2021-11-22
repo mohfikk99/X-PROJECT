@@ -25,15 +25,17 @@ export default function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/Pariwisata" component={Pariwisata} exact />
-        <Route path="/Partisipan" component={Partisipan} exact />
-        <Route path="/About" component={About} exact />
+       
+          <Route path="/Profile" component={Profile} exact />
+          <Route path="/Postingan" component={Postingan} exact />
+         
+          <Route path="/" component={Home} exact />
+          <Route path="/Pariwisata" component={Pariwisata} exact />
+          <Route path="/Partisipan" component={Partisipan} exact />
+          <Route path="/About" component={About} exact />
+          <Route path="/Auth" component={Auth} exact />
+        
 
-        <Route path="/Auth" component={Auth} exact />
-
-        <Route path="/Profile" component={Profile} exact />
-        <Route path="/Postingan" component={Postingan} exact />
       </Switch>
     </Router>
 

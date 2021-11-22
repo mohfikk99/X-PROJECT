@@ -22,12 +22,8 @@ export default function CardPost({ handleShowModal, setCurrentId }) {
                         <Col xs={4} key={tour._id}>
                             <Card border="dark" className="mt-4 cards">
                                 <Card.Header>
-                                    <div className="distance">
-                                        <h4>{tour.name}</h4>
-                                    </div>
-                                    <div>
+                                        {tour.name}
                                         <SettingCard tour={tour} handleShowModal={handleShowModal} setCurrentId={setCurrentId} />
-                                    </div>
                                 </Card.Header>
                                 <Card.Img variant="top" src={tour.image} />
                                 <Card.Body>

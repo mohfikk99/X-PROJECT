@@ -147,9 +147,6 @@ h1 {
 }
 
 .distance {
-  display: block;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 
@@ -159,7 +156,7 @@ h1 {
 }
 
 .settingCard {
-  position: absolute;
+  margin-left: 50%;
   width: 26vw;
   font-size: 2vmin;
 }
