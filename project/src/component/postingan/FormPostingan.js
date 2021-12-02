@@ -69,43 +69,43 @@ export default function FormPostingan({ showModal, handleShowModal, handleCloseM
                         </Row>
 
                         <Row className="mb-3">
-                    <Form.Group as={Col} controlId="formGridState">
-                        <Form.Label>Jenis Wisata *</Form.Label>
-                        <Form.Select defaultValue="Choose...">
-                            <option>Choose...</option>
-                            <option>...</option>
-                        </Form.Select>
-                    </Form.Group>
+                            <Form.Group as={Col} controlId="formGridTypeTour">
+                                <Form.Label>Jenis Wisata *</Form.Label>
+                                <Form.Select defaultValue="Choose..." name="type_tour">
+                                    <option>Choose...</option>
+                                    <option>...</option>
+                                </Form.Select>
+                            </Form.Group>
 
-                    <Form.Group as={Col} controlId="formGridCity">
-                        <Form.Label>Kota/Kabupaten *</Form.Label>
-                        <Form.Control />
-                    </Form.Group>
+                            <Form.Group as={Col} controlId="formGridCity">
+                                <Form.Label>Kota/Kabupaten *</Form.Label>
+                                <Form.Control type="text" name="city" />
+                            </Form.Group>
 
-                    <Form.Group as={Col} controlId="formGridZip">
-                        <Form.Label>Provinsi *</Form.Label>
-                        <Form.Control />
-                    </Form.Group>
-                </Row>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>Sumber Info</Form.Label>
-                    <Form.Control type="text" name="image"/>
-                </Form.Group>
+                            <Form.Group as={Col} controlId="formGridProvince">
+                                <Form.Label>Provinsi *</Form.Label>
+                                <Form.Control type="text" name="province" />
+                            </Form.Group>
+                        </Row>
+                        <Form.Group className="mb-3" controlId="formGridSourceOfInfo">
+                            <Form.Label>Sumber Info</Form.Label>
+                            <Form.Control type="text" name="source_of_info" />
+                        </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Fasilitas</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Ulasan *</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
+                            <Form.Label>Fasilitas</Form.Label>
+                            <Form.Control as="textarea" rows={3} type="text" name="facility" />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>Ulasan *</Form.Label>
+                            <Form.Control as="textarea" rows={3} type="text" name="review" />
+                        </Form.Group>
 
                         <Form.Group className="mb-3" id="formGridCheckbox">
-                    <Form.Check type="checkbox" label="Syarat & Ketentuan Berlaku" />
-                </Form.Group>
+                            <Form.Check type="checkbox" label="Syarat & Ketentuan Berlaku" />
+                        </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridImage">
-                <Form.Label>Gambar</Form.Label> <br/>
+                        <Form.Group as={Col} controlId="formGridImage">
+                            <Form.Label>Gambar</Form.Label> <br />
                             <FileBase
                                 type="file"
                                 multiple={false}

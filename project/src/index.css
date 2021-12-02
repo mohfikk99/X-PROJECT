@@ -153,20 +153,24 @@ h1 {
 .cards {
   width: 26vw;
   font-size: 2vmin;
-  text-align: center;
+}
+
+.titleCard {
+  font-size: 2vw;
 }
 
 .settingCard {
   position: absolute;
-  width: 26vw;
+  width: 120px;
   font-size: 2vmin;
 }
-
 
 .btn-custom {
   margin-right: 1%;
   margin-bottom: 1%;
   font-size: 2vmin;
   padding: 1vmin;
+  
 }
+
 
